@@ -28,14 +28,18 @@ form{
     font-family: var(--fonteprincipal); 
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px magenta;
-    height: 350px;
+    max-height: 800px;
+    min-height:500px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
-    width: 600px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
     margin: 2rem auto;
     background-color: aqua;
+    z-index: 2;
 }
 
 input{
